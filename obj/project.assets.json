@@ -7164,31 +7164,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\davi_\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/davi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davi_\\source\\repos\\RiseFoodServiceWork\\RiseFoodServiceWork.csproj",
+      "projectUniqueName": "/home/davi/Área de Trabalho/ServiceWork/RiseFoodServiceWork/RiseFoodServiceWork.csproj",
       "projectName": "RiseFoodServiceWork",
-      "projectPath": "C:\\Users\\davi_\\source\\repos\\RiseFoodServiceWork\\RiseFoodServiceWork.csproj",
-      "packagesPath": "C:\\Users\\davi_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davi_\\source\\repos\\RiseFoodServiceWork\\obj\\",
+      "projectPath": "/home/davi/Área de Trabalho/ServiceWork/RiseFoodServiceWork/RiseFoodServiceWork.csproj",
+      "packagesPath": "/home/davi/.nuget/packages/",
+      "outputPath": "/home/davi/Área de Trabalho/ServiceWork/RiseFoodServiceWork/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\davi_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/davi/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7241,7 +7234,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }

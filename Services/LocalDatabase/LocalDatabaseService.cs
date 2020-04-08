@@ -30,9 +30,14 @@ namespace RiseFoodServiceWork.Services.LocalDatabase
         {
             _db.Open();
 
-            var supplies = await _db.QueryAsync<Supplie>("SELECT IN_ID, IN_NOM,IN_COD, IN_VALOR, categoria.SG_NOM as Category FROM restodba.si_insu as insumos inner join restodba.si_s_gru as categoria on insumos.IN_SUBGR = categoria.SG_COD;");
-
+            var supplies = await _db.QueryAsync<Supplie>("SELECT IN_ID, IN_NOM,IN_COD, IN_VALOR, categoria.SG_NOM as Category FROM restodba.si_insu as insumos inner join restodba.si_s_gru as categoria on insumos.IN_SUBGR = categoria.SG_COD;");    
+            
+            _db.Close();
+            
             return supplies;
+            
         }
+
+        
     }
 }

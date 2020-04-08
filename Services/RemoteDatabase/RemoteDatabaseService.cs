@@ -19,7 +19,7 @@ namespace RiseFoodServiceWork.Services.RemoteDatabase
 
 
             var client = new MongoClient(_configuration.GetSection("DataBaseSettings").GetValue<string>("RemoteDatabase"));
-            var database = client.GetDatabase("risefood");
+            var database = client.GetDatabase("chapinha");
             _supplies = database.GetCollection<Supplie>("supplies");
         }
 

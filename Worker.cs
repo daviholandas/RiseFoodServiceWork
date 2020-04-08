@@ -29,11 +29,13 @@ namespace RiseFoodServiceWork
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             if (_remoteDatabaseService.IsCollectionExist())
-            {
-                _logger.LogInformation("jA EZXIXWSDASK AJ DAICJKA =SCOJA");
-            }
+                _logger.LogInformation("The supplies collection already exist.");
+            
+            
+            
             else
             {
+                _logger.LogInformation("The supplies collection will be create.");
                 foreach (var supplie in await _localDatabaseService.GetAllSupplies())
                 {
                     await _remoteDatabaseService.SaveSupplie(supplie);
